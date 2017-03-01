@@ -8,16 +8,15 @@ module Greet
   end
 end
 
-class One_cap  
+class Caser  
   include Greet
-  def formal(msg)
+
+  def one_cap(msg)
     msg.capitalize 
   end
-end
 
-class All_cap  
-  include Greet
-  def formal(msg)
+  def all_cap(msg)
     msg.upcase 
   end
+
 end
