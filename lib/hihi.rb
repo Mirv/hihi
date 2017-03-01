@@ -18,5 +18,14 @@ class Caser
   def all_cap(msg)
     msg.upcase 
   end
+end
 
+class Punctuator 
+  def bang(msg)
+    msg << '!'
+  end
+  
+  def dot(msg)
+    msg << '.'
+  end
 end
