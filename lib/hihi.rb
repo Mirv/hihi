@@ -4,20 +4,20 @@ require 'active_support/concern'
 module Greet
   include ActiveSupport::Concern
   def hello
-    puts "hi hi world"
+    "hi hi world"
   end
 end
 
 class One_cap  
   include Greet
   def formal(msg)
-    puts msg.capitalize 
+    msg.capitalize 
   end
 end
 
 class All_cap  
   include Greet
   def formal(msg)
-    puts msg.upcase 
+    msg.upcase 
   end
 end
