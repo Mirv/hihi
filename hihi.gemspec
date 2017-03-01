@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["reski.raptor@gmail.com"]
 
   spec.summary       = "A hello world gem"
-  spec.description   = "A test to see if cloud9 will support making of gems"
+  spec.description   = "A hello world gem, testing to see if cloud9 will support making of gems"
   spec.homepage      = "https://github.com/Mirv/hihi"
   spec.license       = "MIT"
 
